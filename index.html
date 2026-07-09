@@ -824,4 +824,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C80P1:END-->
+<!--WY-C80P2:BEGIN-->
+<style id="wy-c80p2-css">
+.c80p2-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c80p2-fabbox.show{display:block;}
+.c80p2-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c80p2-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c80p2-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c80p2-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c80p2-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c80p2-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c80p2-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c80p2-modal.open{display:flex;}
+.c80p2-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c80p2-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c80p2-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c80p2-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c80p2-close:hover{background:#e3d5b8;}
+.c80p2-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c80p2-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c80p2-tbl th,.c80p2-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c80p2-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c80p2-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c80p2-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c80p2-tbl b{color:#8b2500;}
+.c80p2-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c80p2-note b{color:#8b2500;}
+@media(max-width:900px){.c80p2-fabbox{right:14px;}.c80p2-tbl{font-size:11.5px;}.c80p2-card{padding:26px 14px 16px;}}
+</style>
+<div class="c80p2-fabbox" id="c80p2Box"><button class="c80p2-btn" id="c80p2Btn" type="button" aria-label="開啟全景總表"><span class="c80p2-ic">▦</span><span class="c80p2-ls"><span class="c80p2-l1">本品 · 釋六度相攝品</span><span class="c80p2-l2">六度相攝 · 住一波羅蜜而攝五波羅蜜</span></span></button></div><div class="c80p2-modal" id="c80p2Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c80p2-card"><button class="c80p2-close" id="c80p2Close" type="button" aria-label="關閉">×</button><h3>卷八十·第二品 釋六度相攝品第六十八 · 全景總表</h3><p class="sub">卷八十・第二品｜方便力與善法相續雙引擎・住檀住尸羅五輪問答・有為見無為辯證・三解脫門悲智雙運</p><table class="c80p2-tbl"><caption>一、相攝命題與雙引擎（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>問題升級</td><td>上品答「云何具足六波羅蜜」（橫向並列）；本品追問「云何行一波羅蜜攝五波羅蜜」（縱向相攝）——凡夫菩薩行與聖位菩薩行的分水嶺</td></tr><tr><td>疑情所在</td><td>六度各各異相——所緣境不同、能緣心不同、行相不同、果報不同，若行一即攝五，豈非「行布施即不必持戒」？（相攝≠相代）</td></tr><tr><td>引擎一·方便力</td><td>菩薩以方便力（漚和拘舍羅）故行一攝五——所緣攝（一施同觀戒忍慧之關連）＋動機攝（一念含不害不瞋不懈攝心實相）＋迴向攝（迴向薩婆若不墮二乘）</td></tr><tr><td>引擎二·善法相續</td><td>有為法因緣果報相續故相成，善法必由善法為因緣，六度皆是善法之最勝，故行一則攝五——不依主觀意願，乃客觀法則</td></tr><tr><td>絕對錨點</td><td>薩婆若（一切種智）是把平凡有為善行瞬間轉化為超凡波羅蜜的錨點——念薩婆若是信力，如薩婆若迴向是智力，信智並運方為迴向之全</td></tr></tbody></table><table class="c80p2-tbl"><caption>二、住檀取五度／住尸羅取五度（五輪問答·全息矩陣）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>住檀取尸羅</td><td>布施得慈心，起慈身口業，慈業是三善道（不貪不瞋正見）、尸羅根本，能生三種身業四種口業——布施一動作已含十善道戒之根本枝葉</td></tr><tr><td>住檀取忍進</td><td>同一逆境（受者瞋恚罵辱），菩薩不生瞋心即攝忍辱（意業為根本，身口自然不發）；強意精進不計餘小事即攝精進——凡夫菩薩於同一逆境岔開為二路</td></tr><tr><td>住檀取禪慧</td><td>攝禪：六求盡閉（不求今世福樂、轉輪王、天王人王、世間禪樂、涅槃樂）唯攝意於一切種智；攝慧：三輪體空，施者受者施物畢竟空，不見有益無益</td></tr><tr><td>住尸羅樞紐</td><td>欲界中持戒為上——能力層（唯戒制欲）、普及層（可受可保易於凡夫）、樞紐層（戒立則餘五度皆有所依），持戒力大故總名尸羅波羅蜜</td></tr><tr><td>住尸羅取忍進</td><td>節節支解不生一念瞋——慈母喻（情感重構：如慈母育嬰不生瞋）與如幻觀（理性解構：不見割者罵者皆如幻夢）雙軌並行；精進以寶洲喻策發拯濟大乘心</td></tr></tbody></table><table class="c80p2-tbl"><caption>三、有為見無為辯證·三解脫門·悲智雙運（究竟中道）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>真假無為之辨</td><td>真無為（第一義）：無相寂滅無戲論如涅槃；假無為（相待無）：因有而生之無，如「廟堂上無馬」——執此「無馬」之無仍是戲論斷見</td></tr><tr><td>顯正實相</td><td>真如非被新發現之實體，而是「不見有為法若常樂我淨」——剝除四重顛倒濾鏡的當下即見真如，虛誑法若無即是諸法實</td></tr><tr><td>借假修真</td><td>無生是藥、有生執著是病，病癒藥除——「無生法無定實相可取」，連無生本身亦無實體可執，空亦復空（藥病雙除）</td></tr><tr><td>三解脫門</td><td>空解脫門觀性（不見有為法實）、無相解脫門觀境（不見有益無益）、無作解脫門觀行（但攝諸意在一切種智）——四句既破，安住三門</td></tr><tr><td>悲智雙運終歸</td><td>以方便力、本願、悲心故不取二乘證，直至阿耨菩提；終極心法收於一「迴」字——迴向薩婆若（動力源）、迴轉而不轉（本體基）、迴歸大乘（歸宿處）</td></tr></tbody></table><p class="c80p2-note">本品以須菩提「云何行一波羅蜜攝五波羅蜜」之問，展開方便力與善法相續雙引擎，再以住檀、住尸羅兩輪五問五答鋪陳「主／分／樞」的全息互攝結構，層層收至「有為中見無為」的終極辯證——剝除常樂我淨的濾鏡即是真如，無生為藥而藥病雙除。終以三解脫門安住、不取二乘證收束：於畢竟空中行諸善法，於無相攝中如實相攝，即是龍樹「悲智雙運」的究竟中道。</p></div></div>
+<script id="wy-c80p2-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c80p2Btn"),BOX=document.getElementById("c80p2Box"),MODAL=document.getElementById("c80p2Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=1;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVfab,.wy-vfab,#wyVideoFab,.wy-video-fab,#fabVideo,.fab-video,#wyVidFab,.wy-vid-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c80p2Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C80P2:END-->
 </body></html>
